@@ -5,6 +5,33 @@
 }
 /* End Of Header */
 
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    bottom: 0;
+    padding: 62px 0px 0px 0px;
+}
+
+.sidebar a {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-item:hover > a > span {
+    color: #333;
+}
+
+.sidebar span {
+    color: #a9a9a9;
+}
+
+.main-sidebar {
+    padding-top: 62px;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
